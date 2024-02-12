@@ -1,0 +1,33 @@
+body {
+    background-color: lightgoldenrodyellow;
+    color: darkgreen;
+}
+
+h1 {
+    font-size: 32pt;
+    font
+    font-family: Verdana, "Times New Roman", sans-serif;
+}
+
+h2 {
+    font-size: 14pt;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20pt;
+}
+
+li {
+    display: inline;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+  }
+
+.active {
+    background-color: rgb(255, 210, 87);
+}
